@@ -6,7 +6,7 @@ pipeline {
         DOCKER_IMAGE = 'cithit/neredis'                               //<-----change this to your MiamiID!
         IMAGE_TAG = "build-${BUILD_NUMBER}"
         GITHUB_URL = 'https://github.com/ShrikarNeredimelli/225-lab3-4.git' //<-----change this to match this new repository!
-        KUBECONFIG = credentials('neredis-225-sp26'')                           //<-----change this to match your kubernetes credentials (MiamiID-225)!  1 More change on line 63!
+        KUBECONFIG = credentials('neredis-225-sp26')                           //<-----change this to match your kubernetes credentials (MiamiID-225)!  1 More change on line 63!
     }
 
     stages {
